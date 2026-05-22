@@ -1,6 +1,6 @@
 # RU ASN prefixes (auto-generated; DO NOT EDIT)
 # Source: mrixs/ru_asn_prefixes (RIPE NCC, daily refresh)
-# Generated: 2026-05-21T07:04:15Z
+# Generated: 2026-05-22T06:59:56Z
 
 IP-CIDR,2.16.20.0/23,no-resolve
 IP-CIDR,2.16.53.0/24,no-resolve
@@ -6082,6 +6082,7 @@ IP-CIDR,103.213.251.0/24,no-resolve
 IP-CIDR,104.164.62.0/24,no-resolve
 IP-CIDR,104.165.244.0/24,no-resolve
 IP-CIDR,104.238.29.0/24,no-resolve
+IP-CIDR,108.59.251.0/24,no-resolve
 IP-CIDR,108.165.250.0/24,no-resolve
 IP-CIDR,108.171.32.0/24,no-resolve
 IP-CIDR,108.171.39.0/24,no-resolve
@@ -6825,8 +6826,6 @@ IP-CIDR,158.255.75.0/24,no-resolve
 IP-CIDR,158.255.80.0/21,no-resolve
 IP-CIDR,158.255.128.0/18,no-resolve
 IP-CIDR,159.93.0.0/16,no-resolve
-IP-CIDR,159.146.0.0/24,no-resolve
-IP-CIDR,159.146.108.0/24,no-resolve
 IP-CIDR,159.194.196.0/22,no-resolve
 IP-CIDR,159.194.200.0/21,no-resolve
 IP-CIDR,159.194.208.0/20,no-resolve
@@ -8636,7 +8635,7 @@ IP-CIDR,185.197.72.0/22,no-resolve
 IP-CIDR,185.197.232.0/22,no-resolve
 IP-CIDR,185.198.40.0/22,no-resolve
 IP-CIDR,185.198.69.0/24,no-resolve
-IP-CIDR,185.198.112.0/24,no-resolve
+IP-CIDR,185.198.112.0/23,no-resolve
 IP-CIDR,185.198.114.0/24,no-resolve
 IP-CIDR,185.198.152.0/24,no-resolve
 IP-CIDR,185.199.4.0/22,no-resolve
@@ -8918,6 +8917,7 @@ IP-CIDR,185.255.30.0/24,no-resolve
 IP-CIDR,185.255.176.0/22,no-resolve
 IP-CIDR,186.246.0.0/21,no-resolve
 IP-CIDR,186.246.8.0/23,no-resolve
+IP-CIDR,186.246.10.0/24,no-resolve
 IP-CIDR,186.246.14.0/24,no-resolve
 IP-CIDR,186.246.29.0/24,no-resolve
 IP-CIDR,186.246.30.0/23,no-resolve
@@ -8988,6 +8988,7 @@ IP-CIDR,188.92.24.0/24,no-resolve
 IP-CIDR,188.92.28.0/24,no-resolve
 IP-CIDR,188.92.104.0/21,no-resolve
 IP-CIDR,188.92.176.0/22,no-resolve
+IP-CIDR,188.92.181.0/24,no-resolve
 IP-CIDR,188.92.182.0/23,no-resolve
 IP-CIDR,188.92.192.0/21,no-resolve
 IP-CIDR,188.92.216.0/21,no-resolve
@@ -9847,7 +9848,6 @@ IP-CIDR,193.232.112.0/24,no-resolve
 IP-CIDR,193.232.114.0/23,no-resolve
 IP-CIDR,193.232.116.0/22,no-resolve
 IP-CIDR,193.232.120.0/23,no-resolve
-IP-CIDR,193.232.123.0/24,no-resolve
 IP-CIDR,193.232.124.0/24,no-resolve
 IP-CIDR,193.232.126.0/23,no-resolve
 IP-CIDR,193.232.128.0/22,no-resolve
@@ -9865,6 +9865,7 @@ IP-CIDR,193.232.166.0/24,no-resolve
 IP-CIDR,193.232.168.0/23,no-resolve
 IP-CIDR,193.232.172.0/22,no-resolve
 IP-CIDR,193.232.176.0/22,no-resolve
+IP-CIDR,193.232.180.0/24,no-resolve
 IP-CIDR,193.232.182.0/23,no-resolve
 IP-CIDR,193.232.184.0/23,no-resolve
 IP-CIDR,193.232.188.0/24,no-resolve
@@ -11497,8 +11498,6 @@ IP-CIDR,212.119.192.0/18,no-resolve
 IP-CIDR,212.120.160.0/19,no-resolve
 IP-CIDR,212.122.0.0/19,no-resolve
 IP-CIDR,212.124.0.0/19,no-resolve
-IP-CIDR,212.125.17.0/24,no-resolve
-IP-CIDR,212.125.26.0/24,no-resolve
 IP-CIDR,212.152.32.0/19,no-resolve
 IP-CIDR,212.158.160.0/21,no-resolve
 IP-CIDR,212.158.168.0/22,no-resolve
@@ -12851,6 +12850,7 @@ IP-CIDR6,2a04:f800::/29,no-resolve
 IP-CIDR6,2a05:540::/31,no-resolve
 IP-CIDR6,2a05:542::/32,no-resolve
 IP-CIDR6,2a05:544::/31,no-resolve
+IP-CIDR6,2a05:1640::/29,no-resolve
 IP-CIDR6,2a05:1700::/48,no-resolve
 IP-CIDR6,2a05:1700:2::/47,no-resolve
 IP-CIDR6,2a05:3580::/29,no-resolve
@@ -13301,7 +13301,6 @@ IP-CIDR6,2a0d:d940:1400::/38,no-resolve
 IP-CIDR6,2a0d:d940:1800::/38,no-resolve
 IP-CIDR6,2a0d:d940:1d00::/40,no-resolve
 IP-CIDR6,2a0d:d940:1f00::/40,no-resolve
-IP-CIDR6,2a0d:d940:200f::/48,no-resolve
 IP-CIDR6,2a0d:d940:9003::/48,no-resolve
 IP-CIDR6,2a0d:d940:9007::/48,no-resolve
 IP-CIDR6,2a0d:d940:900d::/48,no-resolve
@@ -13366,7 +13365,6 @@ IP-CIDR6,2a0e:8f40::/29,no-resolve
 IP-CIDR6,2a0e:97c0:9b0::/44,no-resolve
 IP-CIDR6,2a0e:97c7:160::/48,no-resolve
 IP-CIDR6,2a0e:aac0::/32,no-resolve
-IP-CIDR6,2a0e:b107:af1::/48,no-resolve
 IP-CIDR6,2a0e:b107:ff0::/48,no-resolve
 IP-CIDR6,2a0e:b107:fff::/48,no-resolve
 IP-CIDR6,2a0e:b107:2780::/46,no-resolve
