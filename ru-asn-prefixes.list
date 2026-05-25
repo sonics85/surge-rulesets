@@ -1,6 +1,6 @@
 # RU ASN prefixes (auto-generated; DO NOT EDIT)
 # Source: mrixs/ru_asn_prefixes (RIPE NCC, daily refresh)
-# Generated: 2026-05-24T06:49:11Z
+# Generated: 2026-05-25T08:01:33Z
 
 IP-CIDR,2.16.20.0/23,no-resolve
 IP-CIDR,2.16.53.0/24,no-resolve
@@ -860,8 +860,7 @@ IP-CIDR,37.230.228.0/23,no-resolve
 IP-CIDR,37.230.232.0/22,no-resolve
 IP-CIDR,37.230.236.0/23,no-resolve
 IP-CIDR,37.230.239.0/24,no-resolve
-IP-CIDR,37.230.241.0/24,no-resolve
-IP-CIDR,37.230.242.0/23,no-resolve
+IP-CIDR,37.230.240.0/22,no-resolve
 IP-CIDR,37.230.244.0/23,no-resolve
 IP-CIDR,37.230.246.0/24,no-resolve
 IP-CIDR,37.230.248.0/23,no-resolve
@@ -891,6 +890,8 @@ IP-CIDR,45.8.208.0/23,no-resolve
 IP-CIDR,45.8.210.0/24,no-resolve
 IP-CIDR,45.8.228.0/22,no-resolve
 IP-CIDR,45.8.248.0/22,no-resolve
+IP-CIDR,45.9.12.0/22,no-resolve
+IP-CIDR,45.9.16.0/24,no-resolve
 IP-CIDR,45.9.24.0/22,no-resolve
 IP-CIDR,45.9.40.0/22,no-resolve
 IP-CIDR,45.9.88.0/22,no-resolve
@@ -8495,6 +8496,7 @@ IP-CIDR,185.171.192.0/22,no-resolve
 IP-CIDR,185.171.203.0/24,no-resolve
 IP-CIDR,185.172.128.0/24,no-resolve
 IP-CIDR,185.172.136.0/22,no-resolve
+IP-CIDR,185.173.0.0/22,no-resolve
 IP-CIDR,185.173.36.0/22,no-resolve
 IP-CIDR,185.173.72.0/22,no-resolve
 IP-CIDR,185.173.80.0/23,no-resolve
@@ -11339,6 +11341,15 @@ IP-CIDR,212.8.232.0/22,no-resolve
 IP-CIDR,212.8.236.0/24,no-resolve
 IP-CIDR,212.8.238.0/23,no-resolve
 IP-CIDR,212.8.247.0/24,no-resolve
+IP-CIDR,212.11.129.0/24,no-resolve
+IP-CIDR,212.11.130.0/23,no-resolve
+IP-CIDR,212.11.138.0/23,no-resolve
+IP-CIDR,212.11.141.0/24,no-resolve
+IP-CIDR,212.11.143.0/24,no-resolve
+IP-CIDR,212.11.144.0/23,no-resolve
+IP-CIDR,212.11.146.0/24,no-resolve
+IP-CIDR,212.11.148.0/22,no-resolve
+IP-CIDR,212.11.152.0/21,no-resolve
 IP-CIDR,212.12.0.0/19,no-resolve
 IP-CIDR,212.12.64.0/20,no-resolve
 IP-CIDR,212.13.0.0/19,no-resolve
