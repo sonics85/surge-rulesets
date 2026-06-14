@@ -1,6 +1,6 @@
 # RU ASN prefixes (auto-generated; DO NOT EDIT)
 # Source: mrixs/ru_asn_prefixes (RIPE NCC, daily refresh)
-# Generated: 2026-06-13T07:08:40Z
+# Generated: 2026-06-14T07:59:29Z
 
 IP-CIDR,2.16.20.0/23,no-resolve
 IP-CIDR,2.16.53.0/24,no-resolve
@@ -8712,7 +8712,8 @@ IP-CIDR,185.200.240.0/22,no-resolve
 IP-CIDR,185.201.29.0/24,no-resolve
 IP-CIDR,185.201.30.0/24,no-resolve
 IP-CIDR,185.201.44.0/22,no-resolve
-IP-CIDR,185.201.52.0/22,no-resolve
+IP-CIDR,185.201.52.0/23,no-resolve
+IP-CIDR,185.201.54.0/24,no-resolve
 IP-CIDR,185.201.88.0/22,no-resolve
 IP-CIDR,185.202.0.0/22,no-resolve
 IP-CIDR,185.202.106.0/24,no-resolve
@@ -9486,6 +9487,7 @@ IP-CIDR,193.42.116.0/23,no-resolve
 IP-CIDR,193.42.120.0/24,no-resolve
 IP-CIDR,193.42.123.0/24,no-resolve
 IP-CIDR,193.42.124.0/22,no-resolve
+IP-CIDR,193.42.142.0/24,no-resolve
 IP-CIDR,193.42.145.0/24,no-resolve
 IP-CIDR,193.43.8.0/22,no-resolve
 IP-CIDR,193.43.41.0/24,no-resolve
