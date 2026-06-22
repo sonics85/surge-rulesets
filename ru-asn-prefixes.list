@@ -1,6 +1,6 @@
 # RU ASN prefixes (auto-generated; DO NOT EDIT)
 # Source: mrixs/ru_asn_prefixes (RIPE NCC, daily refresh)
-# Generated: 2026-06-21T08:13:10Z
+# Generated: 2026-06-22T09:25:29Z
 
 IP-CIDR,2.16.20.0/23,no-resolve
 IP-CIDR,2.16.53.0/24,no-resolve
@@ -6124,6 +6124,7 @@ IP-CIDR,103.213.251.0/24,no-resolve
 IP-CIDR,104.143.201.0/24,no-resolve
 IP-CIDR,104.164.62.0/24,no-resolve
 IP-CIDR,104.165.244.0/24,no-resolve
+IP-CIDR,104.171.128.0/24,no-resolve
 IP-CIDR,104.238.29.0/24,no-resolve
 IP-CIDR,108.59.251.0/24,no-resolve
 IP-CIDR,108.165.250.0/24,no-resolve
@@ -11376,6 +11377,7 @@ IP-CIDR,196.61.180.0/24,no-resolve
 IP-CIDR,201.51.0.0/21,no-resolve
 IP-CIDR,201.51.8.0/23,no-resolve
 IP-CIDR,201.51.11.0/24,no-resolve
+IP-CIDR,201.51.12.0/24,no-resolve
 IP-CIDR,201.51.28.0/22,no-resolve
 IP-CIDR,202.49.176.0/24,no-resolve
 IP-CIDR,202.181.148.0/24,no-resolve
@@ -13038,7 +13040,6 @@ IP-CIDR6,2a07:f8c0::/32,no-resolve
 IP-CIDR6,2a09:400:1000::/36,no-resolve
 IP-CIDR6,2a09:400:4000::/36,no-resolve
 IP-CIDR6,2a09:400:8000::/36,no-resolve
-IP-CIDR6,2a09:401::/32,no-resolve
 IP-CIDR6,2a09:402::/32,no-resolve
 IP-CIDR6,2a09:404::/31,no-resolve
 IP-CIDR6,2a09:407:3000::/36,no-resolve
