@@ -1,6 +1,6 @@
 # RU ASN prefixes (auto-generated; DO NOT EDIT)
 # Source: mrixs/ru_asn_prefixes (RIPE NCC, daily refresh)
-# Generated: 2026-09-13T08:26:29Z
+# Generated: 2026-09-14T09:07:17Z
 
 IP-CIDR,2.16.20.0/23,no-resolve
 IP-CIDR,2.16.53.0/24,no-resolve
@@ -365,7 +365,6 @@ IP-CIDR,5.227.176.0/20,no-resolve
 IP-CIDR,5.227.192.0/18,no-resolve
 IP-CIDR,5.228.0.0/16,no-resolve
 IP-CIDR,5.231.105.0/24,no-resolve
-IP-CIDR,5.231.231.0/24,no-resolve
 IP-CIDR,5.249.192.0/19,no-resolve
 IP-CIDR,5.250.168.0/21,no-resolve
 IP-CIDR,5.250.232.0/21,no-resolve
@@ -11101,6 +11100,7 @@ IP-CIDR,195.166.180.0/24,no-resolve
 IP-CIDR,195.166.184.0/22,no-resolve
 IP-CIDR,195.166.188.0/23,no-resolve
 IP-CIDR,195.170.32.0/19,no-resolve
+IP-CIDR,195.170.163.0/24,no-resolve
 IP-CIDR,195.170.174.0/24,no-resolve
 IP-CIDR,195.170.192.0/20,no-resolve
 IP-CIDR,195.170.208.0/23,no-resolve
@@ -11385,6 +11385,7 @@ IP-CIDR,200.142.208.0/20,no-resolve
 IP-CIDR,200.165.224.0/20,no-resolve
 IP-CIDR,200.169.176.0/21,no-resolve
 IP-CIDR,200.169.185.0/24,no-resolve
+IP-CIDR,200.169.188.0/24,no-resolve
 IP-CIDR,201.3.237.0/24,no-resolve
 IP-CIDR,201.4.76.0/24,no-resolve
 IP-CIDR,201.7.19.0/24,no-resolve
@@ -12896,7 +12897,7 @@ IP-CIDR6,2a03:dcc0::/32,no-resolve
 IP-CIDR6,2a03:dec0::/32,no-resolve
 IP-CIDR6,2a03:e140:5::/48,no-resolve
 IP-CIDR6,2a03:e140:f::/48,no-resolve
-IP-CIDR6,2a03:e140:1b::/48,no-resolve
+IP-CIDR6,2a03:e140:1a::/47,no-resolve
 IP-CIDR6,2a03:e140:32::/48,no-resolve
 IP-CIDR6,2a03:e140:35::/48,no-resolve
 IP-CIDR6,2a03:e340:3::/48,no-resolve
