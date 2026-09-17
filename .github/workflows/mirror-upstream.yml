@@ -1,0 +1,55 @@
+name: Mirror upstream rulesets
+
+# Три списка, на которые ссылается профиль Surge, лежат в чужих репозиториях.
+# Копия у себя даёт единый источник для всех правил, историю изменений апстрима
+# и точку, которую можно зеркалить за пределы GitHub одним репозиторием.
+
+on:
+  schedule:
+    - cron: '45 3 * * *'   # после обновления ru-asn-prefixes в 03:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch upstream lists
+        run: |
+          set -euo pipefail
+          mkdir -p mirror
+          fetch() {
+            url="$1"; out="mirror/$2"; min="$3"
+            tmp="$(mktemp)"
+            curl -fsSL --max-time 60 "$url" -o "$tmp"
+            lines=$(grep -cve '^\s*$' "$tmp" || true)
+            if [ "$lines" -lt "$min" ]; then
+              echo "ERROR: $out got $lines lines, minimum $min"
+              exit 1
+            fi
+            {
+              echo "# Mirrored from $url"
+              echo "# Fetched: $(date -u +%Y-%m-%dT%H:%M:%SZ) — DO NOT EDIT"
+              cat "$tmp"
+            } > "$out"
+            echo "$out: $lines lines"
+          }
+          fetch https://raw.githubusercontent.com/kschepkin/shadowrocket-configuration/main/proxy-from-ru.list proxy-from-ru.list 20
+          fetch https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-clashx.lst inside-clashx.lst 500
+          fetch https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/community.lst community.lst 300
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain mirror)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add mirror
+            git commit -m "chore: mirror upstream rulesets ($(date -u +%Y-%m-%d))"
+            git push
+          else
+            echo "No changes."
+          fi
