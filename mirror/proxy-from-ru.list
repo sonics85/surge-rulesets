@@ -1,5 +1,5 @@
 # Mirrored from https://raw.githubusercontent.com/kschepkin/shadowrocket-configuration/main/proxy-from-ru.list
-# Fetched: 2026-11-19T12:09:56Z — DO NOT EDIT
+# Fetched: 2026-11-20T12:12:03Z — DO NOT EDIT
 # NAME: ProxyRu
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
